@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang=" ar">
+
+<head>
+    <title> نموذج الحجز </title>
+    <link rel="stylesheet"  type ="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+</head>  
+
+    <body>
+          
+      <div class=" booking-form " > 
+        <h2> نموذج الحجز </h2>
+        <form action=" submit_booking.php " method=" post "> 
+            <div class=" form-group "> 
+                <div class=" form-group "> 
+                    <label for=" email " > بريدك الالكتروني </label>
+                    <input type="text" id="  email " name="  email " value="" required>
+                </div>
+                <div class=" form-group "> 
+                    <label for=" passport " > رقم الباسبور </label>
+                    <input type="text" id=" passport " name=" passport " value="" required>
+                </div>
+                <label for=" payment " > طريقة الدفع </label>
+                <input type="text" id=" payment" name=" payment " value="" required>
+            </div>
+            <div class=" form-group "> 
+                <label for=" hoteil-name " > اسم الفندق </label>
+                <input type="text" id=" hoteil-name " name=" hoteil-name " value="" required>
+            </div>
+            <div class=" form-group "> 
+                <label for=" city" > المدينة </label>
+                <input type="text" id=" city " name=" city" value="" required>
+            </div>
+            <button type=" submit " class=" cta-button"> تاكيد الحجز </button>
+        </form>
+      </div>
+
+    </body>
+
+</html>
